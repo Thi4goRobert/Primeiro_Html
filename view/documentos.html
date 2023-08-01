@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario de estagio - Autarquia</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="contato.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+			<h1><img src="fotos/logo_lond.png" alt="logo da barbearia"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="requisicao.html">Requisição</a></li>
+						<li><a href="contato.html">Contato</a></li>
+                        <li><a href="login.html">login</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+        <main>
+            <div class="donwload">
+            <h2 class="titulo-documento">Faça o donwload e o upload dos documentos</h2>
+            <p>clique no botão a baixo para fazer o donwload da ficha de estagio</p>
+                <a href="doc/ficha.docx"donwload><input type="submit" value="donwload" class="donwload-botao"></a>
+
+                
+                <p>clique no botão a baixo para fazer o donwload do termo obrigatório</p>
+                    <a href="doc/termo.docx"donwload><input type="submit" value="donwload" class="donwload-botao"></a>
+                </div>
+                <h3 class="titulo-documento">Caso você queria fazer upload dos arquivos</h3>
+                <form>
+                    <label for="arquivo">Escolha o arquivo que deseja enviar</label>
+                <input type="file" id="arquivo" class="input-padrao" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" >
+                </form>
+            </main>
+		<footer>
+			<img src="fotos/rodape.png" alt="logo da Autarquia">
+			<p class="copyright">&copy; Copyright Autarquia - 2022</p>
+		</footer>
+	</body>
+</html>

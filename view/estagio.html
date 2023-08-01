@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario de estagio - Autarquia</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="contato.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+			<h1><img src="fotos/logo_lond.png" alt="logo da barbearia"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="requisicao.html">Requisição</a></li>
+						<li><a href="contato.html">Contato</a></li>
+                        <li><a href="login.html">login</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+        <main>
+            <form>
+                <label for="nome">Nome do cordenador do curso</label>
+                <input type="text" id="nome" class="input-padrao" required>
+                <label for="nome-supervisor">Nome do supervosor</label>
+                <input type="text" id="nome-supervisor" class="input-padrao" required>
+                <label for="nome-aluno">Nome do aluno</label>
+                <input type="text" id="nome-aluno" class="input-padrao" required>
+                <label for="data-inicio">Data de Inicio</label>
+                <input type="date" id="data-inicio"class="input-padrao" required>
+                <label for="data">Data do término</label>
+                <input type="date" id="data"class="input-padrao" required>
+                <label for="hora-inicio">Hora de Inicio</label>
+                <input type="time" id="hora-inicio"class="input-padrao" required>
+                <label for="hora">Hora de término</label>
+                <input type="time" id="hora"class="input-padrao" required>
+                <fieldset>
+                    <legend>Selecione o curso</legend>
+                    <select>
+                        <option>Enfermagen</option>
+                        <option>Fisioterapia</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+        </main>
+		<footer>
+			<img src="fotos/rodape.png" alt="logo da Autarquia">
+			<p class="copyright">&copy; Copyright Autarquia - 2022</p>
+		</footer>
+	</body>
+</html>

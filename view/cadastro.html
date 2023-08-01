@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+        <h1><img src="fotos/logo_lond.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="requisicao.html">Requisição</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nome">Nome e sobrenome</label>
+            <input type="text" id="nome" class="input-padrao" required placeholder="ex: joão lucas">
+            <label for="instituicao">Instituição pertencente</label>
+            <input type="text" id="instituicao" class="input-padrao" required placeholder="ex:nome da faculdade">
+
+            <label for="email">Email</label>
+            <input type="email" id="email"class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="cpf">CPF</label>
+            <input type="number" id="cpf"class="input-padrao" required placeholder="ex:111.111.111-11">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone"class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+            <label class="cadastro-label" for="senha-cad">Senha</label>
+                <input type="password" id="senha-cad"class="input-padrao" required placeholder=" ************">
+
+                <label class="cadastro-label" for="senha-confirma">Confirmar Senha</label>
+                <input type="password" id="senha-confirma"class="input-padrao" required placeholder=" ************">
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+        
+    </main>
+    <footer>
+        <img src="fotos/rodape.png" alt="logo da Autarquia">
+        <p class="copyright">&copy; Copyright Autarquia - 2022</p>
+    </footer>
+</body>
+</html>
